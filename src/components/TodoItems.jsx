@@ -1,8 +1,8 @@
 import React from "react";
 
-const TodoItems = ({ id, title }) => {
+const TodoItems = ({ title, id }) => {
   return (
-    <div className="my-6  bg-gray-500 px-2 py-1 rounded-md">
+    <div className={` cursor-grab  px-4 py-1 rounded-md bg-rose-700`}>
       <h1 className="text-white  text-2xl">{title}</h1>
     </div>
   );
