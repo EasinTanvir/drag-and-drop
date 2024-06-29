@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import TodoItems from "./TodoItems";
-import { ReactSortable } from "react-sortablejs";
 
 const TodoList = ({ todo, setTodo }) => {
   return (
